@@ -1,0 +1,133 @@
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'impact';
+	src: url("../fonts/impact/impact.ttf");
+	font-size: 1em;
+}
+@font-face {
+    font-family: 'Impacted';
+    src: url("../fonts/impact/Impacted.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'unicode.impact' ;
+    src: url("../fonts/impact/unicode.impact.ttf");
+    font-size: 1em;
+}
+body {
+    font-family:'OpenSans-Light'
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #19172f;
+    position: relative;
+    z-index: 2;
+}
+header .container {
+    position: relative;
+}
+header .header-green {
+    height: 35px;
+    background-color: #64eb61;
+}
+
+
+
+
+.social {
+    list-style: none;
+    font-size: 28px;
+    
+}
+ h6.text-aling {
+    text-align: left;
+    position: relative;
+    margin-bottom: 0;
+    top: 8px;
+    margin-left: -335px;
+}
+.social li {
+    display: inline-block;
+    margin: 5px;
+    top: -7px;
+    position: relative;
+
+}
+.social a {
+    color: #19172f;
+    top: -20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+}
+
+
+
+header img {
+    position: relative;
+    top: -44px;
+}
+
+#primeiro-menu {
+    list-style: none;
+    margin-bottom: 0;
+    font-size: 23px; 
+    font-family: 'Impacted';
+    top: -80px;
+    position: relative;
+    text-shadow:    5px 5px 0px  #19172f ,
+                    -5px 5px #19172f,
+                    5px 0px 0px #19172f;
+}
+
+#search {
+    font-size: 15px;
+    background-color: #19172f50;
+    text-anchor: #19172f;
+    border: 1px solid #64eb61;
+    border-radius: 10px;
+    top: -2px;
+    position: relative;
+}
+input::placeholder {
+    color: #64eb61;
+    text-shadow:    -1px -1px #19172f,
+                    1px 0px -1px #19172f
+}
+button i {
+    font-size: 14px;
+   
+    background-color: #19172f00
+}
+.btn-primary {
+    background-color: #19172f00;
+    border: none;
+    left: -35px;
+    top: -2px;
+    position: relative;
+}
+#menu li {
+    display: inline-block;
+    margin: 6px;   
+}
+nav li a {
+    color: #64eb61;
+    text-decoration: none;
+}
+
+
+
+

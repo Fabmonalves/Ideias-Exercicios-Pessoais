@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="../Bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-beta3-web/css/all.css">
+
+    <link rel="stylesheet" href="../css/styleDM.css">
+
+    <link rel="shortcut icon" href="../img/logo-tipo-logo.gif" type="image/x-icon">
+
+    <title>Dave Motos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img src="../img/logo-tipo-logo.gif" class="mb-1" alt="logo da oficina Dave Motos">
+
+              <a id="dave-motos" class="navbar-brand mb-1 ms-4 fs-1" href="#">Dave Motos</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="menu-inicial" class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- esse "ms" esta dizendo para a ul passar tudo para direira, é o margin: right do bootstrap -->
+                  <li class="nav-item">
+                    <a id="menu-inicial" class="nav-link active fs-5 ms-2" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="menu-inicial" class="nav-link fs-5 ms-2" href="#">Link</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a id="menu-inicial" class="nav-link disabled fs-5 ms-2">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2 ms-2" type="search" placeholder="Procurar" aria-label="Search">
+                  <button id="Procurar-Search"class="btn btn-outline-success" type="submit">Ok</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <picture class="carousel-item active" data-bs-interval="10000">
+            <img src="https://fakeimg.pl/300x100/" class="d-block w-100" alt="magem ilustrativa 1">
+          </picture>
+          <picture class="carousel-item" data-bs-interval="10000">
+            <img src="https://fakeimg.pl/300x100/" class="d-block w-100" alt="magem ilustrativa 2">
+          </picture>
+          <picture class="carousel-item" data-bs-interval="10000">
+            <img src="https://fakeimg.pl/300x100/"  class="d-block w-100" alt="magem ilustrativa 3">
+          </picture>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <section class="row row-cols-1 row-cols-md-3 g-4 mt-4 ms-2">
+            <div class="col ">
+              <div class="card h-100 text-white bg-dark">
+                <img src="https://fakeimg.pl/250x100/" class="card-img-top" alt="ilustrativa-1">
+                <div class="card-body">
+                  <h5 id="titulos-card" class="card-title">Sobre Mim</h5>
+                  <p class="card-text">Me chamo Davi, tenho x anos de idade,Brasileiro, residente no guaruja até o momento, sou mecanico desde x anos, e desde então venho exercendo a função que tanto "amo" kkkkkk brincadeira, amo minha profissão, comecei...</p>
+                  <a href="#" class="btn btn-link">Ler mais...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-white bg-dark">
+                <img src="https://fakeimg.pl/250x100/" class="card-img-top" alt="ilustrativa-2">
+                <div class="card-body">
+                  <h5 id="titulos-card" class="card-title">Trabalhos Feitos por mim</h5>
+                  <p class="card-text">Nesta pagina estarei postando os trabalhos que foram feitos por mim e comentando sobre as dificuldades e macetes que vou aprendendo e repassando para ajudar tantos mecanicos como você que se interessa na área</p>
+                  <a href="#" class="btn btn-link">Ler mais...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-white bg-dark">
+                <img src="https://fakeimg.pl/250x100/" class="card-img-top" alt="ilustrativa-3">
+                <div class="card-body">
+                  <h5 id="titulos-card" class="card-title">Forum</h5>
+                  <p class="card-text">Entre para nossa comunidade, compartilhe experiencias e dicas para ajudar tanto quem trabalha na área como quem se interessa no assunto.</p>
+                  <a href="#" class="btn btn-link">Ler mais...</a>
+                </div>
+              </div>
+    </section>
+
+    <footer>
+        <section class="relative mt-4">
+            <div id="rodape" class="row text-white bg-dark  ">
+                <div class="col-4">
+                    <ul id="rodape-text-format" class="mt-5">
+                        <li class="mb-2">
+                            <a id="rodape-text-format" href="#"> Sobre Mim  </a>
+                        </li>
+                        <li class="mb-2">
+                            <a id="rodape-text-format" href="#"> Trabalhos Feitos por mim</a>
+                        </li>
+                        <li class="mb-2">
+                            <a id="rodape-text-format" href="#"> Forum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul id="rodape-text-format" class="mt-5">
+                        <li class="mb-2">
+                            <a id="rodape-text-format" href="https://api.whatsapp.com/send?phone=5513997994002&text=estou%20interessado%20em%20teus%20servi%C3%A7os%2C%20vim%20pelo%20Site!" target="_blank"> Tel: (13) 99799-4002 
+                            <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a id="rodape-text-format" href="https://www.instagram.com/davemotosgja/" target="_blank"> @davemotosgja
+                            <i class="fa-brands fa-instagram"></i>   
+                            </a>
+                        </li>
+                        
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul  id="rodape-text-format" class="mt-5">
+                        <li class="mb-2">
+                            <a id="rodape-text-format" href="https://goo.gl/maps/QLRsoQcba6KLDBdD6">R. José Ferreira Canaes, 830 - Vila Santo Antônio, Guarujá - SP, 11432-350, Brasil</a><br>
+                            <i class="fa-solid fa-map-location-dot"></i> 
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="../Bootstrap-5/js/bootstrap.bundle.min.js"></script>
+    <script src="../Bootstrap-5/js/bootstrap.min.js"></script>
+    <script src="../Bootstrap-5/js/popper.min.js"></script>
+</body>
+</html>

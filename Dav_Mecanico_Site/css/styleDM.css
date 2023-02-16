@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'impact';
+    src: url(../fonts/impact/impact.ttf);
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+body {
+    background-color: #1a1b37;
+}
+
+#dave-motos { 
+    color: #65e763;
+    
+}
+#menu-inicial {
+    color: #65e763
+}
+#Procurar-Search {
+    color: #65e763
+}
+#rodape {
+    height: 200px;
+    color: #65e763;
+}
+#rodape-text-format {
+    color: #65e763;
+    text-decoration: none;
+    list-style: none;
+}
+#titulos-card {
+    color: #65e763;
+}
