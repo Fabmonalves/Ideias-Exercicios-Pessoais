@@ -1,0 +1,4 @@
+fabricio;26
+jose;15
+gabi;56
+lua;21
